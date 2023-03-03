@@ -1,0 +1,266 @@
+*{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: space-around;
+    align-items: baseline;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    
+}
+
+header a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #013042;
+}
+header nav li:hover{
+    text-decoration: underline;
+}
+.headerbutton{
+    border: 0px;
+    background-color: #c01a2e;
+    color: white;
+    border-radius: 12px;
+    font-size: 12px;
+}
+.headerbutton i{
+    color: white;
+}
+
+.logo{
+    width: 134px;
+    margin-left: 30px;
+}
+
+
+
+body{
+    margin: 0;
+    padding-top: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+footer{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+    color: #013042;
+    bottom: 0;
+}
+
+.logofooter{
+    width: 130px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.redesfooter{
+    font-size: 30px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.redesfooter a{
+    color: #c01a2e;
+}
+
+
+
+.checkbtn{
+    font-size: 35px;
+    color: #013042;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.btnflotante{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 80px;
+    right: 30px;
+    background: green;
+    color: white;
+    border-radius: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.btnflotante:hover{
+    background: white;
+    color: green;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+button a{
+    color: #013042;
+}
+
+.container1{
+    display: flex;
+    line-height: 30px;
+     /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 54% 3%, rgba(192, 26, 46, 0.27) 0%, rgba(1, 48, 66, 0.16) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 54% 3%, rgba(192, 26, 46, 0.27) 0%, rgba(1, 48, 66, 0.16) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 54% 3%, rgba(192, 26, 46, 0.27) 0%, rgba(1, 48, 66, 0.16) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 54% 3%, rgba(192, 26, 46, 0.27) 0%, rgba(1, 48, 66, 0.16) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 54% 3%, rgba(192, 26, 46, 0.27) 0%, rgba(1, 48, 66, 0.16) 100%);
+    
+}
+
+.loquitos img{
+    padding: 60px;
+}
+
+.container1 .soluciones{
+    color: #013042;
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+.container1 .ecommerce{
+    color: #c01a2e;
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+.container1 p{
+    color: #013042;
+    font-size: 20px;
+}
+
+.container1 a{
+    text-decoration: none;
+    color: white;
+    background-color: #c01a2e;
+    padding: 10px;
+    border-radius: 10px;
+}
+.solucionesecommerce{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+}
+@media screen and (max-width: 600px){
+    
+    
+    header{
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        width: 100%;
+        
+    }
+    .logo{
+        margin-left: 0;
+    }
+    
+
+    .checkbtn{
+        display: block;     
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100uv;
+        background: #013042;
+        top: 90px;
+        left: -100%;
+        text-align: center;
+        transition: all.5s;    
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        
+        
+
+    }
+    nav ul li a{
+        color: white;
+             
+    }
+
+    nav ul li a:hover{
+        color: white;
+             
+    }
+    
+    
+    #check:checked ~ ul{
+        left:0;
+    }
+    
+    .btnflotante{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        bottom: 80px;
+        right: 30px;
+        background: green;
+        color: white;
+        border-radius: 60px;
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .btnflotante:hover{
+        background: white;
+        color: green;
+    }
+
+   .headerbutton{
+    display: none;
+   }
+
+      
+    
+    footer{
+        margin-top: 55px;
+    }
+        
+}
