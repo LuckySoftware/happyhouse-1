@@ -150,7 +150,8 @@ button a{
 }
 
 .loquitos img{
-    padding: 60px;
+    padding-top: 60px;
+    
 }
 
 .container1 .soluciones{
@@ -182,7 +183,12 @@ button a{
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    margin-left: 50px;
     
+}
+
+.solucionesecommerce a:hover{
+    font-weight: bold;
 }
 @media screen and (max-width: 600px){
     
