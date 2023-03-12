@@ -241,6 +241,38 @@ section p{
     color: #013042;
     padding-top: 20px;
 }
+
+
+
+.tienda{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.chamulo{
+    width: 30%;
+}
+.tienda div img{
+    width: 500px;
+}
+.tienda h3{
+    color: #c01a2e;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.botongeneral{
+    text-decoration: none;
+    color: white;
+    background-color: #c01a2e;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
 @media screen and (max-width: 600px){
     
     body{
