@@ -211,6 +211,36 @@ section p{
     font-size: 30px;
     font-weight: bold;
 }
+
+.servicios{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+.categoria{
+    box-shadow: 1px 1px 3px black;
+    padding: 10px;
+    border-radius: 30px;
+    width: 30%;
+}
+.categoria img{
+    width: 100px;
+    margin: 10px;
+}
+.categoria p{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.categoria i{
+    font-size: 25px;
+    color: #013042;
+    padding-top: 20px;
+}
 @media screen and (max-width: 600px){
     
     body{
