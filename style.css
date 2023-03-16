@@ -364,7 +364,70 @@ section p{
         
 
     }
-      
+
+    section p{
+        font-size: 20px;
+    }
+    .tienda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        gap: 0;
+        
+    }
+
+    .tienda div{
+        margin: 0;
+        padding: 2px;
+    }
+    .tienda div img{
+        width: 150px;
+    }
+    
+    .chamulo{
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .chamulo h3, h2{
+        font-size: 15px;
+    }
+
+    .chamulo p, a{
+        font-size: 10px;
+        
+    }
+
+    .chamulo a{
+        padding: 2px;
+    }
+    .servicios{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .categoria{
+        width: 90%;
+        margin: 0;
+        padding: 10px;
+    }
+    .categoria img{
+        width: 50px;
+    }
+    .categoria p{
+        font-size: 10px;
+    }
+    .categoria h2{
+        font-size: 15px;
+    }
     
     footer{
         margin-top: 55px;
