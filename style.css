@@ -311,6 +311,37 @@ section p{
     padding-left: 100px;
     padding-right: 60px;
 }
+
+
+.mundo{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.multinacionales{
+    padding-right: 50px;
+}
+.multinacionales h3{
+    color: #c01a2e;
+    font-size: 20px;
+}
+
+.multinacionales h2{
+    color: #013042;
+}
+
+.mapaimg{
+    position: absolute;
+    width: 800px;
+    padding-top: 20px;
+}
+
+.marcadoresimg{
+    position: relative;
+    width: 800px;
+    z-index: 1;
+}
 @media screen and (max-width: 600px){
     
     body{
@@ -322,6 +353,7 @@ section p{
         align-items: center;
         padding-left: 10px;
         width: 100%;
+        z-index: 1;
         
     }
     .logo{
@@ -391,6 +423,8 @@ section p{
     flex-direction: column;
     padding-top: 100px;
     }
+
+    
     .loquitos{
         padding: 30;
         justify-content: center;
@@ -490,7 +524,37 @@ section p{
         font-size: 10px;
     }
 
+    .container1 .soluciones{
+        font-size: 50px;
+    }
+    .container1 .ecommerce{
+        font-size: 50px;
+    }
+    .mundo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .mapaimg{
+        width: 400px;
+    }
 
+    .marcadoresimg{
+        width: 400px;
+        padding-top: 10px;
+        z-index: 0;
+    }
+
+    .multinacionales h2{
+        font-size: 30px;
+    }
+
+    .multinacionales h3{
+        font-size: 17px;
+    }
     footer{
         margin-top: 55px;
     }
