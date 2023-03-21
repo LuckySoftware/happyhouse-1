@@ -340,7 +340,55 @@ section p{
 .marcadoresimg{
     position: relative;
     width: 800px;
-    z-index: 1;
+    z-index: 0;
+}
+.containerproyectos{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    background-color: lightcyan;
+}
+
+.containerproyectos h3{
+    color: #c01a2e;
+    font-size: 20px;
+}
+.containerproyectos h2{
+    color: #013042;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.proyectos{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 100px;
+    text-align: left;
+    margin-top: 50px;
+    
+}
+
+.proyectos img{
+    width: 300px;
+}
+
+.porfolio{
+    color: black;
+    font-weight: bold;
+    padding-top: 200px;
+    text-decoration: none;
+    border-bottom: 2px solid #c01a2e;
+}
+.botongeneral1 {
+    text-decoration: none;
+    color: black;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 10px;
 }
 @media screen and (max-width: 600px){
     
@@ -554,6 +602,15 @@ section p{
 
     .multinacionales h3{
         font-size: 17px;
+    }
+
+    .proyectos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     footer{
         margin-top: 55px;
