@@ -61,7 +61,6 @@ body{
 footer{
     display: flex;
     background-color: white;
-    justify-content: space-between;
     gap: 10px;
     width: 100%;
     margin: 0;
@@ -558,10 +557,40 @@ section p{
     color: #c01a2e;
     
 }
+
+.areasfooter{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.areasfooter a{
+    text-decoration: none;
+    color: #c01a2e;
+    font-size: 13px;
+}
+.areasfooter h3{
+    font-size: 15px;
+    color: #013042;
+}
+
+
+footer p{
+    padding-right: 100px;
+    padding-left: 30px;
+}
+
+.piedepie{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
 @media screen and (max-width: 600px){
     
     body{
         padding: 0;
+        
         
     }
     header{
@@ -570,6 +599,7 @@ section p{
         padding-left: 10px;
         width: 100%;
         z-index: 1;
+        
         
     }
     .logo{
@@ -779,6 +809,7 @@ section p{
         align-items: center;
         padding-left: 10px;
         padding-right: 10px;
+        margin: 0;
     }
 
     .logosclientes img{
@@ -794,6 +825,8 @@ section p{
         flex-direction: column;
         padding-left: 5px;
         padding-right: 5px;
+        justify-content: center;
+        align-items: center;
     }
 
     .contact_form{  
@@ -857,8 +890,35 @@ section p{
         width: 300px;   
         cursor: pointer;
       }
+
+    .areasfooter a{
+        font-size: 8px;
+    }
+
+    .areasfooter h3{
+        font-size: 8px;
+    }
+
+    .piedepie{
+        justify-content: start;
+        align-items: baseline;
+    }
+
+    .piedepie h5{
+        font-size: 10px;
+
+    }
+    footer div p{
+        font-size: 10px;
+        padding-left: 10px;
+        padding-top: 0;
+        padding-right: 0;
+    }
     footer{
         margin-top: 55px;
+        gap: 5px;
+        justify-content: center;
+        align-items: baseline;
     }
         
 }
