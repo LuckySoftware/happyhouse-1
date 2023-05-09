@@ -6,21 +6,27 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    background-image: url(./img/HHWEBSITEFONDO1.png);
+    
+    
 }
 header{
     display: flex;
     background-color: white;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
     top: 0;
     position: fixed;
     z-index: 1;
     margin: 0;
     padding: 0;
+    
+    
 }
 nav ul li{
     display: inline-block;
+    
     
 }
 
@@ -55,6 +61,10 @@ body{
     margin: 0;
     padding-top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+    
     
     
 }
@@ -147,7 +157,7 @@ button a{
 
     /* global 92%+ browsers support */
     background:radial-gradient(circle at 54% 3%, rgba(192, 26, 46, 0.27) 0%, rgba(1, 48, 66, 0.16) 100%);
-    background-image: url("./img/HH\ WEBSITE\ FONDO\ 01.png");
+    
 }
 
 .loquitos img{
@@ -590,15 +600,18 @@ footer p{
     
     body{
         padding: 0;
+        overflow-x: hidden;
         
         
     }
     header{
         display: flex;
         align-items: center;
-        padding-left: 10px;
         width: 100%;
         z-index: 1;
+        padding-right: 10px;
+        
+        
         
         
     }
