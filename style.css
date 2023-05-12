@@ -6,8 +6,8 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    background-image: url(./img/HHWEBSITEFONDO1.png);
     
+ 
     
 }
 header{
@@ -64,13 +64,14 @@ body{
     padding-left: 0;
     padding-right: 0;
     overflow-x: hidden;
-    
+    background-image: url(./img/fondo2.png);
+    width: 100%;
     
     
 }
 footer{
     display: flex;
-    background-color: white;
+    
     gap: 10px;
     width: 100%;
     margin: 0;
@@ -144,19 +145,7 @@ button a{
     
     line-height: 30px;
      /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 54% 3%, rgba(192, 26, 46, 0.27) 0%, rgba(1, 48, 66, 0.16) 100%);
-
-    /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 54% 3%, rgba(192, 26, 46, 0.27) 0%, rgba(1, 48, 66, 0.16) 100%);
-
-    /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 54% 3%, rgba(192, 26, 46, 0.27) 0%, rgba(1, 48, 66, 0.16) 100%);
-
-    /* ie 10+ */
-    background:-ms-radial-gradient(circle at 54% 3%, rgba(192, 26, 46, 0.27) 0%, rgba(1, 48, 66, 0.16) 100%);
-
-    /* global 92%+ browsers support */
-    background:radial-gradient(circle at 54% 3%, rgba(192, 26, 46, 0.27) 0%, rgba(1, 48, 66, 0.16) 100%);
+    
     
 }
 
