@@ -219,10 +219,12 @@ section p{
 }
 
 .categoria{
-    box-shadow: 1px 1px 3px black;
+    background: #ffffff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
     padding: 10px;
     border-radius: 30px;
     width: 30%;
+
 }
 .categoria img{
     width: 100px;
@@ -236,7 +238,7 @@ section p{
 
 .categoria i{
     font-size: 25px;
-    color: #013042;
+    color: #c262e4;
     padding-top: 20px;
 }
 
@@ -950,5 +952,47 @@ footer p{
         justify-content: center;
         align-items: baseline;
     }
-        
+
 }
+
+/* Particulas violetas */
+
+.fondoreactivo {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .container-particulas {
+    position: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .particulas {
+    position: absolute;
+    background-color: #aaa5da;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: animacion-de-particulas 4s linear infinite;
+  }
+  
+  @keyframes animacion-de-particulas {
+    0% {
+      transform: translate(0, 0) scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: translate(-10%, -100%) scale(0.5);
+      opacity: 0.7;
+    }
+    100% {
+      transform: translate(0, 0) scale(1);
+      opacity: 1;
+    }
+  }
+  
